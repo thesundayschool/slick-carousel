@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slick Carousel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="slick-carousel">
+        <div>
+            <img src="images/milli.webp">
+        </div>
+        <div>
+            <img src="images/money-heist.jpg">
+        </div>
+        <div>
+            <img src="images/dictator.webp">
+        </div>
+        <div>
+            <img src="images/secred-games.jpg">
+        </div>
+        <div>
+            <img src="images/friends.webp">
+        </div>
+        <div>
+            <img src="images/fauda.jpg">
+        </div>
+        <div>
+            <img src="images/chopsticks.jpg">
+        </div>
+        <div>
+            <img src="images/marvik.jpg">
+        </div>
+        <div>
+            <img src="images/double-xl.webp">
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.slick-carousel').slick({
+                dots: true,
+                arrows: true,
+                slidesToShow: 5,
+                slidesToScroll: 2
+            });
+        });
+    </script>
+
+</body>
+
+</html>

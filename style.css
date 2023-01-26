@@ -1,0 +1,9 @@
+.slick-carousel{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.slick-next:before, .slick-prev:before{
+    color: red;
+}
